@@ -1,0 +1,37 @@
+body,html {
+    background: linear-gradient(180deg, #212529, #343a40, #592941, #264d8b, #395b2b, #a48422, #996025, #7f0000, #590f00, #212529, #343a40);
+    background-size: 1800% 1800%;
+
+    -webkit-animation: gradientPTDR 666s ease infinite;
+    -moz-animation: gradientPTDR 666s ease infinite;
+    animation: gradientPTDR 666s ease infinite;
+}
+
+@-webkit-keyframes gradientPTDR {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes gradientPTDR {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes gradientPTDR {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+main {
+    background-color: transparent;
+    margin-top: -60px;
+}
+
+.sub-header {
+    background: transparent !important;
+}
+
+.color-major-color, .color-major-color a {
+    color: #ffffff!important;
+}
